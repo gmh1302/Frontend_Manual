@@ -143,10 +143,10 @@ function getPlantList(userId, grade){};
 function setPlantList(userId, grade){};
 ```
     
--   ${\color{red}DevExtreme \space 관련 \space 함수는 \space 별도의 \space 작성법 \space 필요한가?}$
+-   ${\color{red}DevExtreme \space 관련 \space 함수는 \space 별도의 \space 네이밍 \space 룰이 \space 필요한가?}$
     
 -   함수의 Parameter는 ${\color{green}lowerCamelCase}$로 표기한다.
--   함수의 Parameter는 명확한 쓰임새를 알 수 있는 명사를 사용하도록 한다.
+-   함수의 Parameter는 명확한 쓰임새를 알 수 있는 **명사**를 사용하도록 한다.
 
 ``` javascript
 // bad
