@@ -15,8 +15,8 @@
 -   단일 글자로 이름 짓지 않고, 사용 의도를 충분히 알만큼 명확하게 이름을 작성하도록 한다.
 
 ```
-bad : let a = ''; / let x = ''; / function abc();  
-good : let plantName = '' / let columnList = []; / function getPlantInfo();
+<span style="color:red">bad</span> : let a = ''; / let x = ''; / function abc();  
+<span style="color:red">good</span> : let plantName = '' / let columnList = []; / function getPlantInfo();
 ```
 
 -   줄임말을 사용하지 않는다.
