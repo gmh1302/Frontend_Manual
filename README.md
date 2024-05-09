@@ -98,7 +98,7 @@ import sysLine from './sysLine'
 
 -   변수명은 ${\color{green}lowerCamelCase}$로 표기한다.  
 
-  &nbsp;&nbsp; ${\color{red}※ 단, \space export \space 되는 \space 파일 \space 내의 \space 상수는 \space 예외.}$
+  &nbsp;&nbsp; ※ 단, export 되는 파일 내의 상수는 예외.
 -   **명사**를 사용하여 작성한다.
 -   boolean 타입의 변수는 **'is'** 로 시작한다.
 
