@@ -19,6 +19,7 @@
 <span style="color:red">good</span> : let plantName = '' / let columnList = []; / function getPlantInfo();
 ```
 <span style="color: #0000FF">파랑</span>
+<span style="color:yellow">노란 글씨입니다.</span>
 
 -   줄임말을 사용하지 않는다.
     
