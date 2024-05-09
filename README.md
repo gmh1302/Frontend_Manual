@@ -8,12 +8,15 @@
 
 ---
 
--   단일 글자로 이름 짓지 않고, 사용 의도를 충분히 알만큼 명확하게 이름을 작성하도록 한다.
-    
-    **\-> bad : let a = ''; / let x = ''; / function abc();**
-    
-    **\-> good : let plantName = '' / let columnList = \[\]; / function getPlantInfo();**
-    
+단일 글자로 이름 짓지 않고, 사용 의도를 충분히 알만큼 명확하게 이름을 작성하도록 한다.
+
+> \-> bad : let a = ''; / let x = ''; / function abc();  
+> \-> good : let plantName = '' / let columnList = \[\]; / function getPlantInfo();
+
+**\-> bad : let a = ''; / let x = ''; / function abc();**
+
+**\-> good : let plantName = '' / let columnList = \[\]; / function getPlantInfo();**
+
 -   줄임말을 사용하지 않는다.
     
     **\-> bad : stdName / good : studentName**
@@ -41,7 +44,7 @@
     **\-> bad : export const apiKey = 'key'; / good : export const APIKEY = 'key';**
     
 
-### ✍️ 패키지 & 파일(Package & File)
+### 📁 패키지 & 파일(Package & File)
 
 ---
 
@@ -54,7 +57,7 @@
     **\-> import sysLine from './sysLine'**
     
 
-## ✍️ 변수(Variable)
+## 🌱 변수(Variable)
 
 ---
 
@@ -67,7 +70,7 @@
     
 -   ???
 
-## ✍️ 함수(Function)
+## 📥 함수(Function)
 
 ---
 
@@ -96,7 +99,7 @@
 -   함수를 export 할 때는 **lowerCamelCase**로 표기한다.
     
 
-## ✍️ 객체(Object)
+## 🟦 객체(Object)
 
 ---
 
@@ -108,7 +111,7 @@
 -   객체를 export 할 때는 **lowerCamelCase**로 표기한다.
     
 
-## ✍️ 배열(Array)
+## 🟪배열(Array)
 
 ---
 
@@ -120,7 +123,7 @@
 -   배열을 export 할 때는 **lowerCamelCase**로 표기한다.
     
 
-## ✍️ 클래스(Class) \-> 우리 코드에서 클래스를 잘 사용하지는 않음.
+## 📜 클래스(Class) \-> 우리 코드에서 클래스를 잘 사용하지는 않음.
 
 ---
 
