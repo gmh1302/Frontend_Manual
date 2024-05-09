@@ -44,7 +44,8 @@ good : let plantName = '' / let columnList = []; / function getPlantInfo();
 -   export 되는 파일 내의 모든 상수는 **모두 대문자**로 표기한다.
     
     **\-> bad : export const apiKey = 'key'; / good : export const APIKEY = 'key';**
-    
+
+    &nbsp;
 
 ### 📁 패키지 & 파일(Package & File)
 
@@ -58,6 +59,7 @@ good : let plantName = '' / let columnList = []; / function getPlantInfo();
     
     **\-> import sysLine from './sysLine'**
     
+    &nbsp;
 
 ## 🌱 변수(Variable)
 
@@ -69,6 +71,8 @@ good : let plantName = '' / let columnList = []; / function getPlantInfo();
 -   boolean 타입의 변수는 **'is'**로 시작한다.
     
     **\-> bad : const visible = true; / good : const isVisible = true;**
+
+    &nbsp;
     
 -   ???
 
@@ -99,7 +103,8 @@ good : let plantName = '' / let columnList = []; / function getPlantInfo();
     **\-> bad : function getClassInfo(x,y); / good : function getUserInfo(userId, grade);**
     
 -   함수를 export 할 때는 **lowerCamelCase**로 표기한다.
-    
+-   
+    &nbsp;
 
 ## 🟦 객체(Object)
 
@@ -111,7 +116,8 @@ good : let plantName = '' / let columnList = []; / function getPlantInfo();
     **\-> bad : tag = {}; / good : tagObj = {};**
     
 -   객체를 export 할 때는 **lowerCamelCase**로 표기한다.
-    
+
+    &nbsp;
 
 ## 🟪배열(Array)
 
@@ -123,7 +129,6 @@ good : let plantName = '' / let columnList = []; / function getPlantInfo();
     **\-> bad : tag = \[\]; / good : tagList = \[\];**
     
 -   배열을 export 할 때는 **lowerCamelCase**로 표기한다.
-    
 
 ## 📜 클래스(Class) \-> 우리 코드에서 클래스를 잘 사용하지는 않음.
 
