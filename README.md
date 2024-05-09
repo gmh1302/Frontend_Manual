@@ -7,7 +7,6 @@
 
 ## **2\. 네이밍 컨벤션(Naming Convention)**
 &nbsp;
-&nbsp;
 
 ### ✍️ 네이밍 기본
 
