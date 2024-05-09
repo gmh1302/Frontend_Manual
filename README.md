@@ -8,7 +8,7 @@
 ## **2\. 네이밍 컨벤션(Naming Convention)**
 &nbsp;
 
-### ✍️ 네이밍 기본
+## ✍️ 네이밍 기본
 
 ---
 
@@ -49,7 +49,7 @@
 
     &nbsp;
 
-### 📁 패키지 & 파일(Package & File)
+## 📁 패키지 & 파일(Package & File)
 
 ---
 
