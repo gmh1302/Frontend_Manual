@@ -130,7 +130,7 @@ good : let plantName = '' / let columnList = []; / function getPlantInfo();
     
 -   배열을 export 할 때는 **lowerCamelCase**로 표기한다.
 
-## 📜 클래스(Class) \-> 우리 코드에서 클래스를 잘 사용하지는 않음.
+## 📜 클래스(Class)
 
 ---
 
