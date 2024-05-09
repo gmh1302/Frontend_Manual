@@ -15,9 +15,8 @@
 > \-> good : let plantName = '' / let columnList = \[\]; / function getPlantInfo();
 ```
 
-**\-> bad : let a = ''; / let x = ''; / function abc();**
-
-**\-> good : let plantName = '' / let columnList = \[\]; / function getPlantInfo();**
+-> bad : let a = ''; / let x = ''; / function abc();**
+-> good : let plantName = '' / let columnList = \[\]; / function getPlantInfo();**
 
 -   줄임말을 사용하지 않는다.
     
