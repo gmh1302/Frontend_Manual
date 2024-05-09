@@ -8,29 +8,30 @@
 ## **2\. 네이밍 컨벤션(Naming Convention)**
 &nbsp;
 
-## ✍️ 네이밍 기본
+### ✍️ 네이밍 기본
 
 ---
 
 -   단일 글자로 이름 짓지 않고, 사용 의도를 충분히 알만큼 명확하게 이름을 작성하도록 한다.
 
 ```
-<span style="color:red">bad</span> : let a = ''; / let x = ''; / function abc();  
-<span style="color:red">good</span> : let plantName = '' / let columnList = []; / function getPlantInfo();
+// bad
+let a = ''; / let x = ''; / function abc();
+
+// good
+let plantName = '' / let columnList = []; / function getPlantInfo();
 ```
-<span style="color: #0000FF">파랑</span>
-<span style="color:yellow">노란 글씨입니다.</span>
 
 -   줄임말을 사용하지 않는다.
-    
-    **\-> bad : stdName / good : studentName**
-    
-    **\-> bad : rstObj / good : resultObj**
-    
-    **\-> bad : eqpId / good : equipmentId**
-    
-    **\-> bad : eqpNm / good : equipmentName**
-    
+
+```
+// bad
+let stdName = ''; / let rstObj = ''; / let eqpId = ''; / let eqpNm = '';
+
+// good
+let studentName = ''; / let resultObj = ''; / let equipmentId = ''; / let equipmentName = '';
+```
+
 -   이름 맨 앞이나 맨 뒤쪽에 **언더바(\_)**를 사용하지 않는다.
     
     ※ 언더바(\_)를 써야하는 상황이 있나?
@@ -49,7 +50,7 @@
 
     &nbsp;
 
-## 📁 패키지 & 파일(Package & File)
+### 📁 패키지 & 파일(Package & File)
 
 ---
 
@@ -63,7 +64,7 @@
     
     &nbsp;
 
-## 🌱 변수(Variable)
+### 🌱 변수(Variable)
 
 ---
 
@@ -78,7 +79,7 @@
     
 -   ???
 
-## 📥 함수(Function)
+### 📥 함수(Function)
 
 ---
 
@@ -108,7 +109,7 @@
 -   
     &nbsp;
 
-## 🟦 객체(Object)
+### 🟦 객체(Object)
 
 ---
 
@@ -121,7 +122,7 @@
 
     &nbsp;
 
-## 🟪배열(Array)
+### 🟪배열(Array)
 
 ---
 
@@ -132,7 +133,7 @@
     
 -   배열을 export 할 때는 **lowerCamelCase**로 표기한다.
 
-## 📜 클래스(Class)
+### 📜 클래스(Class)
 
 ---
 
